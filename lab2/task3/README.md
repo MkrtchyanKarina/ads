@@ -16,15 +16,11 @@ n(n − 1)/2).
 - Формат выходного файла (output.txt). В выходной файл надо вывести
 число инверсий в массиве
 
-  
-## Input / Output 
-
+## Input / Output
 
 | Input                      | Output |
 |----------------------------|--------|
 | 10<br/>1 8 2 1 4 7 3 2 3 6 | 17     |
-
-
 
 
 ## Ограничения по времени и памяти
@@ -40,7 +36,7 @@ n(n − 1)/2).
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab5
+   cd algorithms-and-data-structures/lab2
    ```
 3. **Запустить все лабораторные**
     ```bash
@@ -48,5 +44,5 @@ n(n − 1)/2).
    ```
 4. **Запустить все тесты**
     ```bash
-   python -documents_count unittest discover -v
+   python -m unittest discover
    ```

@@ -11,8 +11,8 @@
 -  [Лабораторная 3 - Быстрая сортировка, сортировки за линейное время ](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3)
 -  [Лабораторная 4 - Стек, очередь, связанный список ](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4)
 -  [Лабораторная 5 - Деревья. Пирамида, пирамидальная сортировка. Очередь с приоритетами ](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab5)
-
-
+-  [Лабораторная 6 - Хеширование. Хеш-таблицы ](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab6)
+-  [Лабораторная 7 - Динамическое программирование №1 ](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab7)
 
 ### Описание 
    
@@ -49,6 +49,6 @@
    ```
 4. **Запустить все тесты**
     ```bash
-   python -documents_count unittest discover
+   python -m unittest discover
    ```
    

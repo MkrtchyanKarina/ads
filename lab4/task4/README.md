@@ -54,5 +54,5 @@
    ```
 4. **Запустить все тесты**
     ```bash
-   python -documents_count unittest discover -v
+   python -m unittest discover
    ```

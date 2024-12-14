@@ -24,8 +24,6 @@ j.
 | 10<br/>6 8 -2 5 -10 5 5 -1 4 -8 | 0 8 20 |
 
 
-
-
 ## Ограничения по времени и памяти
 
 - Ограничение по времени. 2 сек.
@@ -39,7 +37,7 @@ j.
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab5
+   cd algorithms-and-data-structures/lab2
    ```
 3. **Запустить все лабораторные**
     ```bash
@@ -47,5 +45,5 @@ j.
    ```
 4. **Запустить все тесты**
     ```bash
-   python -documents_count unittest discover -v
+   python -m unittest discover
    ```

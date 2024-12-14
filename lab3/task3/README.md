@@ -51,5 +51,5 @@ n и k (1 ≤ n, k ≤ 10^5) – число матрёшек и размах р�
    ```
 4. **Запустить все тесты**
     ```bash
-   python -documents_count unittest discover -v
+   python -m unittest discover
    ```

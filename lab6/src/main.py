@@ -19,7 +19,3 @@ if __name__ == "__main__":
     for f in src_path:
         subprocess.run(['python', str(f)])
         print(f'{f}  ran')
-
-
-# var= (41 * (12 % 29)) % 9
-# print(var)

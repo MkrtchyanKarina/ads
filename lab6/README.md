@@ -1,21 +1,17 @@
-# Лабораторная работа №5: Деревья. Пирамида, пирамидальная сортировка. Очередь с приоритетами
+# Лабораторная работа №6: Хеширование. Хеш-таблицы.
 
 **Студентка ИТМО,  Мкртчян Карина Геворговна  466745**  
 ## Вариант 12
 ### Навигация
 
-- [ ] [Задача 1 - Куча ли?](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab5/task1)
-- [ ] [Задача 3 - Обработка сетевых пакетов](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab5/task3)
-- [ ] [Задача 4 - Построение пирамиды](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab5/task4)
-- [ ] [Задача 7 - Снова сортировка](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab5/task7)
+- [ ] [Задача 1 - Множество](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab6/task1)
+- [ ] [Задача 2 - Телефонная книга](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab6/task2)
+- [ ] [Задача 5 - Выборы в США](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab6/task5)
+- [ ] [Задача 6 - Фибоначчи возвращается](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab6/task6)
 
 
 ## Описание
-В этой лабораторной работе студенты ознакомятся со структурами данных деревьев и пирамид, с пирамидальной сортировкой и очередью с приоритетами. 
-Основные задачи включают изучение новых структур для хранения данных, их реализация и практика в применении для решения варианта, 
-и при желании 2-х дополнительных заданий по выбору, написание тестов к ним, создание
-директории лабораторной согласно требуемой структуре, написание документации к каждой задаче, а также одной единой для всей лабораторной. 
-
+Лабораторная работа посвящена ознакомлению с такими понятиями, как множество, словари, хеш-таблицы и хеш-функции.
 
 ## Запуск проекта
 

@@ -15,7 +15,7 @@ class TestHashTable(unittest.TestCase):
     def test_hash_table_0(self):
         # given
         array_len = 6
-        array = ['A 5', 'A 3', 'D 2', 'D 3', '? 3', '? 5']
+        array = ['arr_a 5', 'arr_a 3', 'D 2', 'D 3', '? 3', '? 5']
         expected_result = ['N', 'Y']
 
         # when
@@ -34,7 +34,7 @@ class TestHashTable(unittest.TestCase):
     def test_hash_table_1(self):
         # given
         array_len = 13
-        array = ['A 5', 'A 3', 'D 2', 'D 3', '? 3', '? 5', 'A 8', 'A 8', '? 8', 'D 8', '? 8', 'D 8', '? 8']
+        array = ['arr_a 5', 'arr_a 3', 'D 2', 'D 3', '? 3', '? 5', 'arr_a 8', 'arr_a 8', '? 8', 'D 8', '? 8', 'D 8', '? 8']
         expected_result = ['N', 'Y', 'Y', 'N', 'N']
 
         # when
@@ -53,7 +53,7 @@ class TestHashTable(unittest.TestCase):
     def test_hash_table_2(self):
         # given
         array_len = 5 * 10 ** 5
-        array = [f'{choice(['A', 'D', '?'])} {randint(-10**18, 10**18)}' for _ in range(array_len)]
+        array = [f'{choice(['arr_a', 'D', '?'])} {randint(-10**18, 10**18)}' for _ in range(array_len)]
 
         # when
         t_start = time.perf_counter()

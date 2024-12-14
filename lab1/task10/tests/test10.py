@@ -76,7 +76,7 @@ class PalindromeTestCase(unittest.TestCase):
         # given
         length = 6
         string = "ABCDEF"
-        expected_result = "A"
+        expected_result = "arr_a"
 
         # when
         t_start = time.perf_counter()

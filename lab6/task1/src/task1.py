@@ -34,7 +34,7 @@ class HashTable:
     def actions(self):
         for a in self.array:
             command, key = a.split(" ")
-            if command == "A":
+            if command == "arr_a":
                 self.add_key(key)
             elif command == "D":
                 self.delete_key(key)

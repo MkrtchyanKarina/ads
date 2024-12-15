@@ -45,4 +45,3 @@ def bracket_sequence_txt():
 
 if __name__ == "__main__":
     bracket_sequence_txt()
-    print(bracket_sequence('foo(bar[index);'))

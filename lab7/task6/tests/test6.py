@@ -85,7 +85,7 @@ class LongestSubTest(unittest.TestCase):
 
 
         print()
-        print(Style.BRIGHT + 'Task #6 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #7 | Task #6 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

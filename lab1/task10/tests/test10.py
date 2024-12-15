@@ -76,7 +76,7 @@ class PalindromeTestCase(unittest.TestCase):
         # given
         length = 6
         string = "ABCDEF"
-        expected_result = "arr_a"
+        expected_result = "A"
 
         # when
         t_start = time.perf_counter()
@@ -107,7 +107,7 @@ class PalindromeTestCase(unittest.TestCase):
         table.add_row(["Максимальные значения", f"{length}\n{string[:10]}", t_end, memory, result[:10]])
 
         print()
-        print(Style.BRIGHT + 'Task #10 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #1 | Task #10 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

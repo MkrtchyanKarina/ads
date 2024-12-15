@@ -81,7 +81,7 @@ class BureaucracyTest(unittest.TestCase):
         table.add_row(["Значения из примера", f'{visitors_count} {documents_count}\n{' '.join(map(str, queue[:3]))}',
                        t_end, memory, f'{result[0]}\n{' '.join(map(str, result[1][:3]))}'])
         print()
-        print(Style.BRIGHT + 'Task #11 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #11 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

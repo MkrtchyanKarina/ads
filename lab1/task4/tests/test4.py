@@ -73,7 +73,7 @@ class LinealSearch(unittest.TestCase):
                        f"{count}\n{' '.join(map(str, indexes[:5]))}"])
 
         print()
-        print(Style.BRIGHT + 'Task #4 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #1 | Task #4 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

@@ -85,7 +85,7 @@ class BinaryAdditionTestCase(unittest.TestCase):
         table.add_row(["Значения из примера", f"{a[:10]}\n{b[:10]}", t_end, memory, result[:11]])
 
         print()
-        print(Style.BRIGHT + 'Task #9 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #1 | Task #9 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

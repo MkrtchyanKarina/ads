@@ -91,7 +91,7 @@ class StringsSortTest(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end,
                        memory, arr_to_str(result)])
         print()
-        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #3 | Task #7 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

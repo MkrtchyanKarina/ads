@@ -77,7 +77,7 @@ class PolyMultiplyTest(unittest.TestCase):
                        t_end, memory, " ".join(map(str, result[:3]))])
 
         print()
-        print(Style.BRIGHT + 'Task #8 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #2 | Task #8 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

@@ -66,7 +66,7 @@ class TestHeapSortSwaps(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{n}\n{array[:4]}', t_end, memory, f'{result[0]}\n{result[1][:4]}'])
         print()
-        print(Style.BRIGHT + 'Task #4 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #5 | Task #4 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

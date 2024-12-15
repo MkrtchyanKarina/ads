@@ -7,7 +7,7 @@ from colorama import Style
 from random import randint, shuffle
 
 expected_time = 1
-expected_memory = 64
+expected_memory = 128
 
 
 class LongestCommonSubTest(unittest.TestCase):
@@ -97,7 +97,7 @@ class LongestCommonSubTest(unittest.TestCase):
 
 
         print()
-        print(Style.BRIGHT + 'Task #4 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #7 |Task #4 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

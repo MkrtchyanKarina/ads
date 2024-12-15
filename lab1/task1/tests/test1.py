@@ -86,7 +86,7 @@ class InsertionSortTestCase(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{array_len}\n{' '.join(map(str, array[:4]))}', t_end, memory,  ' '.join(map(str, result[:4]))])
 
         print()
-        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #1 | Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

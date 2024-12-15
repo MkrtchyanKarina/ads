@@ -119,7 +119,7 @@ class TestNetworkPacketProcessing(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
         print()
-        print(Style.BRIGHT + 'Task #3 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #5 | Task #3 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

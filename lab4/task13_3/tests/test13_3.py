@@ -170,7 +170,7 @@ class LinkedListTest(unittest.TestCase):
         table.add_row(["Значения из примера", f'{ll.output()}\nsearch(''Hello'')', t_end, memory, f'{result}'])
 
         print()
-        print(Style.BRIGHT + 'Task #13.3 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #13.3 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

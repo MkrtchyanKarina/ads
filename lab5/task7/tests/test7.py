@@ -93,7 +93,7 @@ class TestHeapSort(unittest.TestCase):
         table.add_row(["Повторяющиеся значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()
-        print(Style.BRIGHT + 'Task #7 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #5 | Task #7 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

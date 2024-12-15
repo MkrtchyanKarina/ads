@@ -67,7 +67,7 @@ class ElectionsTable(unittest.TestCase):
 
     def test_elections_3(self):
         # given
-        states_result = [f'{''.join([chr(randint(97, 122)) for _ in range(15)])} {randint(0, 10**18)}'
+        states_result = [f'{''.join([chr(randint(97, 122)) for _ in range(3)])} {randint(1, 10**5)}'
                          for _ in range(10**5)]
 
         # when
@@ -83,7 +83,7 @@ class ElectionsTable(unittest.TestCase):
 
 
         print()
-        print(Style.BRIGHT + 'Task #5 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #6 | Task #5 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

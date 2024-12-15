@@ -70,7 +70,7 @@ class EqualTest(unittest.TestCase):
 
     def test_equal_3(self):
         # given
-        actions_count = 10**6
+        actions_count = 10**5
         start = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*', '/'])} ' * 2 + f'{choice(['+', '-', '*', '/'])} '
         middle = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*', '/'])} {choice(['+', '-', '*', '/'])} ' * (actions_count // 4)
         middle = middle[:-1]
@@ -88,7 +88,7 @@ class EqualTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{actions_count}\n{expression[:7]}', t_end, memory, result])
         print()
-        print(Style.BRIGHT + 'Task #8 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #8 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

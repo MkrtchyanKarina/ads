@@ -175,7 +175,7 @@ class BracketSequenceTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", brackets[:4], t_end, memory, result])
         print()
-        print(Style.BRIGHT + 'Task #4 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #4 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

@@ -41,11 +41,11 @@
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab<№ лабы>
+   cd algorithms-and-data-structures
    ```
 3. **Запустить все лабораторные**
     ```bash
-   python src/main.py
+   for ($f = 0; $f -le 7; $f++) {python "lab$f/src/main.py"}
    ```
 4. **Запустить все тесты**
     ```bash

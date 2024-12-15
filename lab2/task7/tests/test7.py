@@ -92,7 +92,7 @@ class MaxSubarrayTest(unittest.TestCase):
         table.add_row(["Значения из примера", f'{array_len}\n{" ".join(map(str, array[:3]))}', t_end, memory, result])
 
         print()
-        print(Style.BRIGHT + 'Task #7 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #2 | Task #7 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

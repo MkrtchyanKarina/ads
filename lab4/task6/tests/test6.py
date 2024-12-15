@@ -68,7 +68,7 @@ class BracketSequenceTest(unittest.TestCase):
         table.add_row(["Значения из примера", f'{commands_count}\n{'\n'.join(commands[-5:])}',
                        t_end, memory, '\n'.join(map(str, result[-5:]))])
         print()
-        print(Style.BRIGHT + 'Task #6 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #6 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

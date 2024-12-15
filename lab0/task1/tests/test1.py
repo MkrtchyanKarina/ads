@@ -124,7 +124,7 @@ class AdditionTest(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{first_term} {second_term}', t_end, memory,  result])
 
         print()
-        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #0 | Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

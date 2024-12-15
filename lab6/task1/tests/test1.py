@@ -67,7 +67,7 @@ class TestHashTable(unittest.TestCase):
         table.add_row(["Значения из примера", f'{array_len}\n{'\n'.join(array[:4])}', t_end, memory, '\n'.join(result[:4])])
 
         print()
-        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #6 | Task #1 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

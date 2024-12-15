@@ -1,9 +1,7 @@
-import typing as tp
 from lab7.src.utils import File
 
 
-
-def exchange(money: int, coins):
+def exchange(money: int, coins: list[int]) -> int:
     dp = [0] + [float('inf')] * money
     for coin in coins:
         for j in range(coin, money+1):
@@ -11,7 +9,7 @@ def exchange(money: int, coins):
     return dp[money]
 
 
-def exchange_with_amount(money: int, coins: dict):
+def exchange_with_amount(money: int, coins: dict[int: list[int]]) -> int:
     dp = [0] + [float('inf')] * money
     for c in coins.keys():
         denomination = c
@@ -21,24 +19,23 @@ def exchange_with_amount(money: int, coins: dict):
                 dp[j] = min(dp[j], dp[j - denomination] + 1)
     return dp[money]
 
-print(exchange(34, (1, 3, 4)))
-# def limits(array_len: int, commands: tp.List[str]) -> bool:
-#     if 1 <= array_len == len(commands) <= 5*10**5 and all(abs(int(x.split(" ")[1])) <= 10**18 for x in commands):
-#         return True
-#     else:
-#         return False
-#
-#
-# def hash_table_txt():
-#     f = File(__file__)
-#     arguments = f.read()
-#     array_len = int(arguments[0])
-#     commands = arguments[1:array_len+1]
-#     if limits(array_len, commands):
-#         ex = HashTable(commands).actions()
-#         answer = "\n".join(ex)
-#         f.write(answer)
-#
-#
-# if __name__ == "__main__":
-#     hash_table_txt()
+
+def limits(money: int, amount: int, coins: list[int]) -> bool:
+    if (1 <= money <= 10**3) and (1 <= amount == len(coins) <= 100) and all(1 <= c <= 10**3 for c in coins):
+        return True
+    else:
+        return False
+
+
+def exchange_txt() -> None:
+    f = File(__file__)
+    arguments = f.read()
+    money, amount = list(map(int, arguments[0].split(" ")))
+    coins = list(map(int, arguments[1].split(" ")))
+    if limits(money, amount, coins):
+        answer = exchange(money, coins)
+        f.write(str(answer))
+
+
+if __name__ == "__main__":
+    exchange_txt()

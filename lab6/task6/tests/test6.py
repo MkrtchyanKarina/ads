@@ -97,7 +97,7 @@ class TestIsFib(unittest.TestCase):
         table.add_row(["Максимальные значения", "100000...", t_end, memory, result])
 
         print()
-        print(Style.BRIGHT + 'Task #6 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #6 | Task #6 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

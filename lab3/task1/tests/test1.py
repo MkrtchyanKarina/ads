@@ -84,7 +84,7 @@ class QuickSortTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n}\n{" ".join(map(str, m[:3]))}...', t_end, memory, f'{" ".join(map(str, result[:3]))}...'])
         print()
-        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #3 | Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

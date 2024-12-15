@@ -69,7 +69,7 @@ class TestPhoneBook(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{count}\n{'\n'.join(actions[:10])}', t_end, memory, '\n'.join(result[:10])])
 
         print()
-        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #6 | Task #2 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

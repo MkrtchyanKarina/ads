@@ -66,7 +66,7 @@ class QueueActionsTest(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{actions_count}\n{'\n'.join(actions[-5:])}',
                        t_end, memory, '\n'.join(result[-5:])])
         print()
-        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #4 | Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

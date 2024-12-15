@@ -84,7 +84,7 @@ class FibNumberTest(unittest.TestCase):
         table.add_row(["Максимальные значения", number, t_end, memory,  str(result)[:40] + "..."])
 
         print()
-        print(Style.BRIGHT + 'Task #3 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #0 | Task #3 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

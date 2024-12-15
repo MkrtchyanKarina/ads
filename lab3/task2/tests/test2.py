@@ -78,7 +78,7 @@ class ScarecrowSortTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", n, t_end, memory,f'{" ".join(map(str, result[:10]))}...'])
         print()
-        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #3 | Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

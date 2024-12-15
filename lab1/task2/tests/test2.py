@@ -70,7 +70,7 @@ class InsertionSortTestCase(unittest.TestCase):
                        f"{' '.join(map(str, res1[:4]))}\n{' '.join(map(str, res2[:4]))}"])
 
         print()
-        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #1 | Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

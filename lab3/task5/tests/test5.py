@@ -80,7 +80,7 @@ class HIndexTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", f'{' '.join(map(str, citations[:4]))}', t_end, memory, result])
         print()
-        print(Style.BRIGHT + 'Task #5 - Test Table' + Style.RESET_ALL)
+        print(Style.BRIGHT + 'Lab #3 | Task #5 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

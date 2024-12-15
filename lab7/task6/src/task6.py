@@ -1,8 +1,8 @@
 from lab7.src.utils import File
 
 
-def longest_sub(array_len, array):
-    inf = float('inf')
+def longest_sub(array_len: int, array: list[int]) -> tuple[int, list[int]]:
+    inf = 10**10
     subsequence = [inf] * (array_len + 1)
     subsequence[0] = -inf
     for i in range(array_len):
@@ -26,7 +26,7 @@ def limits(array_len: int, array: list[int]) -> bool:
         return False
 
 
-def longest_sub_txt():
+def longest_sub_txt() -> None:
     f = File(__file__)
     arguments = f.read()
     array_len = int(arguments[0])

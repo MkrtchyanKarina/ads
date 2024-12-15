@@ -1,6 +1,4 @@
-ivanov 100
-ivanov 500
-ivanov 300
-petr 70
-tourist 1
-tourist 2
+4
+2 7 8 3
+4
+5 2 8 7

@@ -1,23 +1,41 @@
+from lab7.src.utils import File
 
-from random import randint
-import time
+
 def longest_sub(array_len, array):
     inf = float('inf')
-    F = [inf] * (array_len + 1)
-    F[0] = -inf
+    subsequence = [inf] * (array_len + 1)
+    subsequence[0] = -inf
     for i in range(array_len):
         left = 0
         right = array_len
         while right - left > 1:
             middle = (left + right) // 2
-            if F[middle] >= array[i]:
+            if subsequence[middle] >= array[i]:
                 right = middle
             else:
                 left = middle
-        F[right] = array[i]
-    result = F[1:F.index(inf)]
-    return len(result), result
-print(longest_sub(9, [3, 29, 5, 5, 28, 6, 7, 5, 89]))
-start = time.time()
-print(longest_sub( 300000, [randint(-10**9, 10**9) for _ in range(300000)]))
-print(time.time() - start)
+        subsequence[right] = array[i]
+    longest_subsequence = subsequence[1:subsequence.index(inf)]
+    return len(longest_subsequence), longest_subsequence
+
+
+def limits(array_len: int, array: list[int]) -> bool:
+    if 1 <= array_len == len(array) <= 3*10**5 and all(abs(x) <= 10 ** 9 for x in array):
+        return True
+    else:
+        return False
+
+
+def longest_sub_txt():
+    f = File(__file__)
+    arguments = f.read()
+    array_len = int(arguments[0])
+    array = list(map(int, arguments[1].split(" ")))
+    if limits(array_len, array):
+        result = longest_sub(array_len, array)
+        answer = f'{result[0]}\n{' '.join(map(str, result[1]))}'
+        f.write(answer)
+
+
+if __name__ == "__main__":
+    longest_sub_txt()

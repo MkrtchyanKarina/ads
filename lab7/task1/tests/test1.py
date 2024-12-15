@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab7.task1.src.task1 import exchange, exchange_with_amount
-from lab6.src.utils import table
+from lab7.src.utils import table
 from colorama import Style
 from random import randint
 

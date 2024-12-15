@@ -22,8 +22,8 @@ def exchange_with_amount(money: int, coins: dict):
     return dp[money]
 
 print(exchange(34, (1, 3, 4)))
-# def limits(length: int, commands: tp.List[str]) -> bool:
-#     if 1 <= length == len(commands) <= 5*10**5 and all(abs(int(x.split(" ")[1])) <= 10**18 for x in commands):
+# def limits(array_len: int, commands: tp.List[str]) -> bool:
+#     if 1 <= array_len == len(commands) <= 5*10**5 and all(abs(int(x.split(" ")[1])) <= 10**18 for x in commands):
 #         return True
 #     else:
 #         return False
@@ -32,9 +32,9 @@ print(exchange(34, (1, 3, 4)))
 # def hash_table_txt():
 #     f = File(__file__)
 #     arguments = f.read()
-#     length = int(arguments[0])
-#     commands = arguments[1:length+1]
-#     if limits(length, commands):
+#     array_len = int(arguments[0])
+#     commands = arguments[1:array_len+1]
+#     if limits(array_len, commands):
 #         ex = HashTable(commands).actions()
 #         answer = "\n".join(ex)
 #         f.write(answer)

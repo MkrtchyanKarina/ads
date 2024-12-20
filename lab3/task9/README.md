@@ -37,7 +37,7 @@ xi, yi , определяющие точку (xi , yi). Ограничения: 
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab5
+   cd algorithms-and-data-structures/lab3
    ```
 3. **Запустить все лабораторные**
     ```bash

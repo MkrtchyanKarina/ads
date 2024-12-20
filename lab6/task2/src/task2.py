@@ -1,6 +1,4 @@
-import typing as tp
 from lab6.src.utils import File
-
 
 
 class PhoneBook:
@@ -44,7 +42,7 @@ class PhoneBook:
         return self.answer
 
 
-def limits(count: int, commands: tp.List[str]) -> bool:
+def limits(count: int, commands: list[str]) -> bool:
     if 1 <= count == len(commands) <= 10**5:
         for c in commands:
             c = c.split(" ")

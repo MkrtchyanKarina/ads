@@ -26,7 +26,7 @@ def limits(n: int, m: list[int]) -> bool:
         return False
 
 
-def quick_sort_txt():
+def frequent_txt():
     f = File(__file__)
     arguments = f.read()
     array_len = int(arguments[0])
@@ -38,4 +38,4 @@ def quick_sort_txt():
 
 
 if __name__ == "__main__":
-    quick_sort_txt()
+    frequent_txt()

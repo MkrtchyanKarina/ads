@@ -1,6 +1,4 @@
-import typing as tp
 from lab6.src.utils import File
-
 from llist import sllist
 
 
@@ -45,7 +43,7 @@ class HashTable:
         return self.answer
 
 
-def limits(length: int, commands: tp.List[str]) -> bool:
+def limits(length: int, commands: list[str]) -> bool:
     if 1 <= length == len(commands) <= 5*10**5 and all(abs(int(x.split(" ")[1])) <= 10**18 for x in commands):
         return True
     else:

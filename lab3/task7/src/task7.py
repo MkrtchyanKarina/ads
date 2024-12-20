@@ -10,13 +10,13 @@ def strings_sort(n: int, m: int, k: int, strings: tp.List[str]):
 
 
 def radix_sort(k: int, strings: list[tp.List[str]]) -> list[int]:
-    alf = {i:[] for i in range(97, 123)}
+    alf = {i: [] for i in range(97, 123)}
     for s in strings:
         alf[ord(s[1][k])] += [s]
     return sum(alf.values(), [])
 
 
-def limits(n:int, m: int, k:int, strings: tp.List[str]):
+def limits(n: int, m: int, k: int, strings: tp.List[str]):
     if (1 <= n <= 10**6) and (1 <= k <= m <= 10**6) and (n*m <= 5*10**7) and (len(strings) == n) and all(len(s) == m for s in strings):
         return True
     else:

@@ -1,60 +1,33 @@
-Лабораторная работа №1:
+# Лабораторная работа №1: Сортировка вставками, выбором, пузырьковая.
+**Студентка ИТМО,  Мкртчян Карина Геворговна  466745**  
+## Вариант 12
+### Навигация
 
-    Сортировка вставками, выбором, пузырьковая.
+- [ ] [Задача 1 - Сортировка вставкой](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task1)
+- [ ] [Задача 2 - Сортировка вставкой +](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task2)
+- [ ] [Задача 3 - Сортировка вставкой по убыванию](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task3)
+- [ ] [Задача 4 - Линейный поиск](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task4)
+- [ ] [Задача 9 - Сложение двоичных чисел](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task9)
+- [ ] [Задача 10 - Палиндром](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task10)
 
-Цель лабораторной:
+## Описание
+Лабораторная работа посвящена сортировкам за n^2.
 
-    Научиться писать простые алгоритмы сортировки на Python - сортировку пузырьком, вставками и выбором, понять принцип их работы. 
+## Запуск проекта
 
-Задачи лабораторной:
-
-    Научиться писать простые алгоритмы сортировки.
-    Научиться тестировать алгоритмы сортировки.
-    Научиться решать нестандартные задачи.
-
-Структура проекта lab1:
-
-    src/ - папка для общего файла.
-        verifications.py - файл с функциями для проверки введенных пользователем данных
-
-    task1/ - первое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task2/ - второе задание
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task3/ - третье задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task4/ - четвертое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task5/ - пятое задание
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task6/ - шестое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task7/ - седьмое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task8/ - восьмое задание
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task9/ - девятое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-
-    task10/ - десятое задание.
-        src/ — исходные коды.
-        tests/ — тесты.
-    
-Тесты можно запустить из файлов в папках tests. Чтобы проверить работу программы в файле с самой программой, раскомментируйте вызов функции и запустите файл.
+1. **Клонируйте репозиторий**
+   ```bash
+   git clone https://github.com/MkrtchyanKarina/algorithms-and-data-structures.git
+   ```
+2. **Перейдите в папку с проектом**
+   ```bash
+   cd algorithms-and-data-structures/lab1
+   ```
+3. **Запустить все лабораторные**
+    ```bash
+   python src/main.py
+   ```
+4. **Запустить все тесты**
+    ```bash
+   python -m unittest discover
+   ```

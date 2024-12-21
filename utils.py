@@ -5,11 +5,12 @@ table = PrettyTable()
 table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
 table.hrules = 1
 
+
 class File:
     def __init__(self, file):
-        self.file = file.split('\\')
-        self.task_number = self.file[-1][4:-3]
-        self.lab_folder = self.file[5]
+        self.array = file.split('\\')
+        self.task_number = self.array[-1][4:-3]
+        self.lab_folder = self.array[-4]
         self.task_folder = f'task{self.task_number}'
 
 

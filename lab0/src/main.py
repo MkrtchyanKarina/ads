@@ -3,19 +3,21 @@ import pathlib
 import subprocess
 import sys
 sys.path.append('C:\\Users\\User\\PycharmProjects\\algorithms-and-data-structures')
-sys.path.append('C:\\Users\\User\\PycharmProjects\\algorithms-and-data-structures\\lab3')
 project_path = pathlib.Path(__file__).parent.parent
-array = os.listdir(project_path)
+array = os.listdir(project_path)[2:6]
 src_path = []
 
-for i in range(2, 6): # в цикле от первой до последней папки
-    task = array[i]
-
-    dir_path = pathlib.Path(project_path, task) # получаем директорию index-ой папки
+for task in array:
+    dir_path = pathlib.Path(project_path, task)
     src_path += [pathlib.Path(dir_path, "src", f'{task}.py')]
 
 
 if __name__ == "__main__":
-    for f in src_path:
-        subprocess.run(['python', str(f)])
-        print(f'{f}  ran')
+    print("\nLab #0" )
+    for i in range(len(array)):
+        file = src_path[i]
+        task = array[i]
+        subprocess.run(['python', str(file)])
+        print()
+        print(task)
+        print(f'{file}  ran')

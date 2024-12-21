@@ -3,7 +3,7 @@ import time
 import psutil
 import unittest
 from random import randint
-from lab3.src.utils import table
+from utils import table
 from colorama import Style
 
 expected_time = 10

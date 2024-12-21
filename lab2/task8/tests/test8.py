@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 import random
-from lab2.src.utils import table
+from utils import table
 from lab2.task8.src.task8 import karatsuba_polynomial_multiply
 from colorama import Style
 

@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab3.src.utils import table
+from utils import table
 from lab3.task2.src.task2 import worst_case
 from colorama import Style
 

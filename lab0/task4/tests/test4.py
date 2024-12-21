@@ -2,7 +2,7 @@ from lab0.task4.src.task4 import last_digit
 import unittest
 import psutil
 import time
-from lab0.src.utils import table
+from utils import table
 from colorama import Style
 
 

@@ -1,4 +1,4 @@
-from lab1.src.utils import File
+from utils import File
 
 
 def binary_addition(binary1: str, binary2: str) -> str:

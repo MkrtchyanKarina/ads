@@ -5,7 +5,7 @@ from colorama import Style
 from lab1.task10.src.task10 import palindrome
 import psutil
 import time
-from lab1.src.utils import table
+from utils import table
 from random import randint
 
 expected_time = 1

@@ -1,4 +1,4 @@
-from lab3.src.utils import File
+from utils import File
 
 
 class Dot:

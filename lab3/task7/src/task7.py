@@ -1,4 +1,4 @@
-from lab3.src.utils import *
+from utils import *
 import typing as tp
 
 

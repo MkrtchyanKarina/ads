@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab6.task5.src.task5 import elections
-from lab6.src.utils import table
+from utils import table
 from colorama import Style
 from random import randint
 

@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab5.task1.src.task1 import is_heap
-from lab5.src.utils import table
+from utils import table
 from random import randint
 from colorama import Style
 

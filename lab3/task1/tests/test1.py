@@ -2,7 +2,7 @@ import unittest
 from random import randint
 import psutil
 import time
-from lab3.src.utils import table
+from utils import table
 from lab3.task1.src.task1 import quick_sort
 from colorama import Style
 

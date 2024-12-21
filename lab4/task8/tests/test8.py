@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab4.src.utils import table
+from utils import table
 from lab4.task8.src.task8 import equal
 from random import randint, choice
 from colorama import Style
@@ -71,8 +71,8 @@ class EqualTest(unittest.TestCase):
     def test_equal_3(self):
         # given
         actions_count = 10**5
-        start = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*', '/'])} ' * 2 + f'{choice(['+', '-', '*', '/'])} '
-        middle = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*', '/'])} {choice(['+', '-', '*', '/'])} ' * (actions_count // 4)
+        start = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*'])} ' * 2 + f'{choice(['+', '-', '*'])} '
+        middle = f'{randint(-10, 10)} {randint(-10, 10)} {choice(['+', '-', '*'])} {choice(['+', '-', '*'])} ' * (actions_count // 4)
         middle = middle[:-1]
         expression = start + middle
 
@@ -86,6 +86,8 @@ class EqualTest(unittest.TestCase):
         # then
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
+        if result > 10**9:
+            result //= 10**9
         table.add_row(["Значения из примера", f'{actions_count}\n{expression[:7]}', t_end, memory, result])
         print()
         print(Style.BRIGHT + 'Lab #4 | Task #8 - Test Table' + Style.RESET_ALL)

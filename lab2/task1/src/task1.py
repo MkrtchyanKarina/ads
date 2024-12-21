@@ -1,4 +1,4 @@
-from lab2.src.utils import File
+from utils import File
 import typing as tp
 
 

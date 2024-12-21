@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 from random import randint
-from lab2.src.utils import table
+from utils import table
 from lab2.task1.src.task1 import merge_sort
 from colorama import Style
 expected_time = 2

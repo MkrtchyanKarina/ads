@@ -4,7 +4,7 @@ from colorama import Style
 from lab1.task9.src.task9 import binary_addition
 import psutil
 import time
-from lab1.src.utils import table
+from utils import table
 
 expected_time = 1
 expected_memory = 64

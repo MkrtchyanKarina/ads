@@ -1,4 +1,4 @@
-from lab0.src.utils import File
+from utils import File
 
 
 def addition(first_term: int, second_term: int) -> int:

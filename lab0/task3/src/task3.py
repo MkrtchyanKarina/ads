@@ -1,4 +1,4 @@
-from lab0.src.utils import File
+from utils import File
 
 
 def fib_number(number: int) -> int:

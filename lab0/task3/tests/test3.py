@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab0.src.utils import table
+from utils import table
 from lab0.task3.src.task3 import fib_number
 from colorama import Style
 

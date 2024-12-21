@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab5.src.utils import table
+from utils import table
 from lab5.task4.src.task4 import MinHeap
 from random import randint
 from colorama import Style

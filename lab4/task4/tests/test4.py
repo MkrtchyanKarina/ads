@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab4.src.utils import table
+from utils import table
 from lab4.task4.src.task4 import bracket_sequence
 from random import choice, randint
 from colorama import Style

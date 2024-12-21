@@ -1,4 +1,4 @@
-from lab1.src.utils import File
+from utils import File
 
 
 def swap(a, b):

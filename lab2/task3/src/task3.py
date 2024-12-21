@@ -1,5 +1,5 @@
 import typing as tp
-from lab2.src.utils import File
+from utils import File
 
 
 class PermutationsCount:

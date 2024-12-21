@@ -1,4 +1,4 @@
-from lab7.src.utils import File
+from utils import File
 
 
 def longest_common_sub(n, arr_a, m, arr_b):

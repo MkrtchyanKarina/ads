@@ -1,4 +1,4 @@
-from lab1.src.utils import File
+from utils import File
 
 
 def insertion_sort(array_len: int, not_sorted_array: list[int]) -> list[int]:

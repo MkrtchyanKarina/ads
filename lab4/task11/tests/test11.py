@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab4.src.utils import table
+from utils import table
 from lab4.task11.src.task11 import bureaucracy
 from random import randint
 from colorama import Style

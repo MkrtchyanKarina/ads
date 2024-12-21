@@ -1,5 +1,5 @@
 import re
-from lab3.src.utils import *
+from utils import *
 
 
 def h_index(citations: list[int]) -> int:

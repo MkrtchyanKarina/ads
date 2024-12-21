@@ -1,4 +1,4 @@
-from lab7.src.utils import File
+from utils import File
 
 
 def exchange(money: int, coins: list[int]) -> int:

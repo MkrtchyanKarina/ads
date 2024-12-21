@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 from random import randint
-from lab3.src.utils import table
+from utils import table
 from lab3.task5.src.task5 import h_index
 from scholarmetrics import hindex
 from colorama import Style

@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 from random import randint, shuffle
-from lab2.src.utils import table
+from utils import table
 from lab2.task5.src.task5 import frequent
 from colorama import Style
 

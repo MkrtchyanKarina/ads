@@ -1,5 +1,5 @@
 import typing as tp
-from lab6.src.utils import File
+from utils import File
 import math
 
 

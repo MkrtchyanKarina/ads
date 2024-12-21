@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab6.task1.src.task1 import HashTable
-from lab6.src.utils import table
+from utils import table
 from colorama import Style
 from random import randint, choice
 

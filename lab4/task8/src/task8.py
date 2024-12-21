@@ -1,4 +1,4 @@
-from lab4.src.utils import File
+from utils import File
 import typing as tp
 
 
@@ -11,7 +11,10 @@ def calc(a: int, b: int, action: str) -> int:
     elif action == "-":
         return a - b
     elif action == "/":
-        return int(a//b)
+        if b == 0:
+            return 0
+        else:
+            return int(a//b)
     else:
         return 0
 

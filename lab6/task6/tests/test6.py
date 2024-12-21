@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab6.task6.src.task6 import is_fib
-from lab6.src.utils import table
+from utils import table
 from colorama import Style
 
 expected_time = 2

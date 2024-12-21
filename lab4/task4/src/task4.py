@@ -1,4 +1,4 @@
-from lab4.src.utils import File
+from utils import File
 
 
 def bracket_sequence(brackets: str):

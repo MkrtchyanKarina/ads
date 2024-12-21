@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 from random import randint
-from lab2.src.utils import table
+from utils import table
 from lab2.task2.src.task2 import MergeSortActions
 from colorama import Style
 

@@ -1,4 +1,4 @@
-from lab5.src.utils import File
+from utils import File
 import typing as tp
 
 

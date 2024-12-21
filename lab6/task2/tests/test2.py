@@ -2,7 +2,7 @@ import time
 import unittest
 import psutil
 from lab6.task2.src.task2 import PhoneBook
-from lab6.src.utils import table
+from utils import table
 from colorama import Style
 from random import randint, choice
 

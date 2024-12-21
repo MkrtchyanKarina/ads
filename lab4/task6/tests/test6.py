@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab4.src.utils import table
+from utils import table
 from lab4.task6.src.task6 import queue_actions
 from random import randint, choice
 from colorama import Style

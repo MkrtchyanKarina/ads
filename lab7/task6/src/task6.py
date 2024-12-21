@@ -1,4 +1,4 @@
-from lab7.src.utils import File
+from utils import File
 
 
 def longest_sub(array_len: int, array: list[int]) -> tuple[int, list[int]]:

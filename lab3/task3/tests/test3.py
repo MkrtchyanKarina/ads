@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab3.src.utils import table
+from utils import table
 from lab3.task3.src.task3 import scarecrow_sort
 from random import randint
 from colorama import Style

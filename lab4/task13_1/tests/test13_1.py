@@ -1,7 +1,7 @@
 import unittest
 import psutil
 import time
-from lab4.src.utils import table
+from utils import table
 from lab4.task13_1.src.task13_1 import LinkedList, Node
 from colorama import Style
 

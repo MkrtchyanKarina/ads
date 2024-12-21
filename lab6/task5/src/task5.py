@@ -1,4 +1,4 @@
-from lab6.src.utils import File
+from utils import File
 
 
 def elections(states_result: list[str]):

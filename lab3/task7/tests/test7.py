@@ -2,8 +2,8 @@ import string
 import unittest
 import psutil
 import time
-from random import randint, choice
-from lab3.src.utils import table
+from random import choice
+from utils import table
 from lab3.task7.src.task7 import strings_sort, reformat
 from colorama import Style
 

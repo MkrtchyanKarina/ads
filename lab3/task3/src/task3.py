@@ -1,4 +1,4 @@
-from lab3.src.utils import File
+from utils import File
 
 
 def scarecrow_sort(n: int, k: int, array: list) -> str:

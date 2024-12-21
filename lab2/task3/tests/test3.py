@@ -2,7 +2,7 @@ import unittest
 import psutil
 import time
 from random import randint
-from lab2.src.utils import table
+from utils import table
 from lab2.task3.src.task3 import PermutationsCount
 from colorama import Style
 

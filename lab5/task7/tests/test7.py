@@ -3,7 +3,7 @@ import unittest
 from random import randint
 import psutil
 from lab5.task7.src.task7 import heap_sort_max
-from lab5.src.utils import table
+from utils import table
 from colorama import Style
 
 expected_time = 0.6  #  CPython выполняет около 10^7 операций в минуту => 

@@ -1,5 +1,5 @@
 from random import randint
-from lab3.src.utils import File
+from utils import File
 
 
 def quick_sort(l: list[int]) -> list[int]:

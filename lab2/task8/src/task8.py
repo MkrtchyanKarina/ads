@@ -1,29 +1,5 @@
 from math import log2, ceil
-from lab2.src.utils import File
-
-def verification(n, A, B, attempt=1):
-    res = 1
-    if type(n) is int and n > 0 and type(A) is list and type(B) is list:
-        if len(A) == len(B) == n:
-            pass
-        else:
-            res *= 0
-    else:
-        res *= 0
-    if res == 0:
-        if attempt == 3:
-            return 'Ошибка!'
-        else:
-            print("Введите данные ещё раз, соблюдая ограничения: ")
-            try:
-                new_n = int(input())
-                new_A = list(map(int, input().split(" ")))
-                new_B = list(map(int, input().split(" ")))
-                return verification(new_n, new_A, new_B, attempt + 1)
-            except:
-                return 'Ошибка!'
-    else:
-        return res
+from utils import File
 
 
 def karatsuba_polynomial_multiply(A, B):
